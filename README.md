@@ -1,7 +1,5 @@
 # Hi 👋, I'm James Damasco
 
-### A budding Html developer
-
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=James-Damasco" alt="James-Damasco" /></a> </p>
 
 - 🔭 I'm currently working on **A Full Stack Project**
