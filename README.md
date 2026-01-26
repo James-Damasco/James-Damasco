@@ -1,6 +1,6 @@
 # Hi 👋, I'm James Damasco
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy" style="width: 50%; object-fit: cover;"><img src="iconss.jpg" alt="James-Damasco" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"  style="width: 50%; height: 50%; object-fit: cover;"><img src="iconss.jpg" alt="James-Damasco" /></a> </p>
 
 - 🔭 I'm currently working on **A Full Stack Project**
 
