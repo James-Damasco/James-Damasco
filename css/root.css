@@ -1,0 +1,11 @@
+:root {
+    --bg-color: #050505;
+    --neon-green: #0f380f;
+    --neon-green-glow: #00ff00;
+    --neon-blue: #00f3ff;
+    --magenta: #ff00ff;
+    --purple: #8a2be2;
+    --text-color: #e0e0e0;
+    --font-main: "Share Tech Mono", monospace;
+    --font-code: "Fira Code", monospace;
+}
