@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="assets/css/root.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div id="custom-cursor"></div>
+    <div class="scanlines"></div>
+
+    <canvas id="matrix-canvas"></canvas>
+
+    <div id="boot-screen">
+        <div class="terminal-window">
+            <p id="boot-text"></p>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="boot-progress"></div>
+            </div>
+        </div>
+    </div>
+    <main id="main-content" style="display: '';">
+        <nav class="cyber-nav">
+            <div class="logo glitch" data-text="JAMES.DAMASCO">JAMES DAMASCO</div>
+            <ul>
+                <li><a href="#hero">// ROOT</a></li>
+                <li><a href="#about">// ABOUT</a></li>
+                <li><a href="#skills">// SKILLS</a></li>
+                <li><a href="#projects">// PROJECTS</a></li>
+                <li><a href="#terminal-section">// TERMINAL</a></li>
+            </ul>
+        </nav>
+        <section id="hero">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="ACCESS GRANTED">ACCESS GRANTED.</h1>
+                <div class="typewriter-container">
+                    <span id="typed-text"></span>
+                </div>
+                <a href="#projects" class="cyber-btn">EXECUTE_PROJECTS.exe</a>
+            </div>
+        </section>
+        <section id="about" data-aos="fade-up">
+            <h2 class="section-title gltich" data-text="> WHOAMI"> > JAMES DAMASCO</h2>
+            <div class="cyber-panel">
+                <div class="panel-content">
+                    <div class="profile-placeholder">
+                        <i class="fa-solid fa-user-ninja"></i>
+                    </div>
+                    <div class="bio">
+                        <h3>IDENTITY: <span class="neon-blue"></span></h3>
+                        <p>Junior Frontend Developer & Creative Coder bridging the gap between design and raw data.
+                            Operationg in the shadows of the DOM, optimizing web performance, and deploying bulletproof
+                            structures.
+                        </p>
+                        <p class="specialties">
+                            SPECIALTIES: [ WebGL, UI/UX, Front-end Development ]
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" data-aos="fade-right">
+            <h2 class="section-title glitch" data-text="> TECH_STACK">> TECH_STACK</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <span class="skill-name">HTML/CSS</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">JavaScript (ES6+)</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">React / Vue</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Three.JS & GSAP</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Cybersecurity / Linux</span>
+                    <div class="skill-bar">
+                        <div class="skill-name" style="width: 80%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" data-aos="fade-up">
+            <h2 class="section-title glitch" data-text="> DATABASE_RECORDS">DATABASE_RECORDS</h2>
+            <div class="projects-grid">
+                <div class="cyber-card">
+                    <div class="card-header">PRJ_01: BETA-COFFEE-WEBSITE</div>
+                    <div class="card-body">
+                        <p>Simple Coffee Website</p>
+                        <div class="tech-tags">
+                            <span>Node.js</span>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://github.com/James-Damasco/Beta-Coffee"><i
+                                class="fa-brands fa-github"></i>Source</a>
+                        <a href="https://james-damasco.github.io/Beta-Coffee/"><i class="fa-solid fa-link"></i>Live</a>
+                    </div>
+                </div>
+                <div class="cyber-card">
+                    <div class="card-header">
+                        <p>Highly secure, encrypted local storage manager with a terminal interface.</p>
+                        <div class="tech-tags">
+                            <span>JS</span>
+                            <span>Crypto AI</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"><i class="fa-brands fa-github"></i>Source</a>
+                        <a href="#"><i class="fa-solid fa-link"></i>Live</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="terminal-section" data-aos="zoom-in">
+            <h2 class="section-title glitch" data-text="> INTERACTIVE_SHELL">INTERACTIVE_SHELL</h2>
+            <div class="terminal-ui">
+                <div class="terminal-header">
+                    <span>root@cyberpunk:~#</span>
+                </div>
+                <div class="terminal-body" id="terminal-output">
+                    <p>Type 'help' to see available commands.</p>
+                </div>
+                <div class="terminal-input-line">
+                    <span class="prompt">$</span>
+                    <input type="text" id="cmd-input" autocomplete="off" autofocus>
+                </div>
+            </div>
+        </section>
+        <section id="contact" data-aos="fade-up">
+            <h2 class="section-title glitch" data-text="> OPEN_CHANNEL">OPEN_CHANNEL</h2>
+            <form class="cyber-form" id="contact-form">
+                <div class="input-group">
+                    <input type="text" required placeholder="">
+                    <label>IDENTIFIER (Name)</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" required placeholder="">
+                    <label>NODE (Email)</label>
+                </div>
+                <div class="input-group">
+                    <textarea required rows="4" placeholder=""></textarea>
+                    <label>PAYLOAD (Message)</label>
+                </div>
+                <button type="submit" class="cyber-btn">TRANSMIT_DATA</button>
+            </form>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <p class="neon-green">SYSTEM ONLINE</p>
+                <p><span id="dateNow"></span> James Damasco | End of Line.</p>
+                <div class="social-links">
+                    <a href="https://github.com/James-Damasco"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-twiiter"></i></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="assets/js/app.js" type="module"></script>
+<script src="assets/js/date.js"></script>
+
+</html>
